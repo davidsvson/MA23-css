@@ -1,0 +1,34 @@
+.container > div {
+    border: 1px solid gray;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+
+
+@media (min-width: 400px) {
+    .container > div {
+        background-color:bisque;
+    }
+
+    .container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+
+@media (min-width: 600px ) {
+
+    .container > div {
+        background-color: blueviolet;
+    }
+
+    .container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr ;
+    }
+}
